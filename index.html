@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bozorg Labs | Research & Engineering</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0b1424;
+      color: #edf4ff;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+    header, main, footer {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 24px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #263750;
+    }
+    .logo { letter-spacing: 3px; font-weight: bold; }
+    .logo span, h1 span { color: #83b7ff; }
+    h1 { font-size: clamp(42px, 8vw, 76px); line-height: 1.1; }
+    .intro { color: #b9c8dc; max-width: 680px; font-size: 19px; }
+    h2 { margin-top: 65px; }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #14243a;
+      border: 1px solid #2b405d;
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .card p { color: #b9c8dc; }
+    a { color: #83b7ff; text-decoration: none; }
+    a:hover { color: white; }
+    footer { color: #8294ad; border-top: 1px solid #263750; margin-top: 70px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">BOZORG <span>LABS</span></div>
+    <a href="https://github.com/bzorg-labs">GitHub ↗</a>
+  </header>
+
+  <main>
+    <p>INDEPENDENT RESEARCH & ENGINEERING</p>
+    <h1>Ideas into<br><span>working systems.</span></h1>
+
+    <p class="intro">
+      Bozorg Labs explores artificial intelligence, software engineering,
+      and computational neuroscience through practical projects,
+      experiments, and documented technical work.
+    </p>
+
+    <h2>Selected Projects</h2>
+
+    <div class="projects">
+      <article class="card">
+        <h3>Guardian AI</h3>
+        <p>Python static analysis and control-flow inspection.</p>
+        <a href="https://github.com/bzorg-labs/Guardian--ai">
+          View repository →
+        </a>
+      </article>
+
+      <article class="card">
+        <h3>ExportDesk AI</h3>
+        <p>AI-assisted international buyer inquiry management.</p>
+        <span>Prototype</span>
+      </article>
+
+      <article class="card">
+        <h3>NeuroAI</h3>
+        <p>Exploring EEG, machine learning, and computational neuroscience.</p>
+        <span>Research direction</span>
+      </article>
+    </div>
+
+    <h2>Our Principle</h2>
+    <p class="intro">
+      Technology should expand human capability —
+      while people remain in control.
+    </p>
+  </main>
+
+  <footer>
+    © 2026 Bozorg Labs · Independent work. Evidence over claims.
+  </footer>
+</body>
+</html>
